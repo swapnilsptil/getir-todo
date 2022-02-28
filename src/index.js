@@ -5,7 +5,7 @@ import { createStore, applyMiddleware } from 'redux';
 import reducer from './reducers/root';
 
 import App from './App';
-import './index.css';
+import './index.scss';
 import DEFAULT_STATE from './reducers/defaultState';
 import { DATABASE } from './utils/Const';
 
